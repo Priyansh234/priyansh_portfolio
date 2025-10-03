@@ -663,3 +663,13 @@ header.experience-header h4 {
 .whatsapp-btn i {
   pointer-events: none;
 }
+
+.footer-links {
+  color: #007bff;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.footer-links:hover {
+  color: #0056b3;
+}

@@ -82,3 +82,17 @@ function openWhatsapp() {
     let url = "https://wa.me/" + phone + "?text=" + encodeURIComponent(message);
     window.open(url, "_blank");
 }
+
+function sendEmail() {
+    let name = document.getElementById("full-name").value;
+    let subject = document.getElementById("subject").value;
+    let message = document.getElementById("message").value;
+
+    let email = "priyanshguptaji234@gmail.com";
+
+    let body = "Name: " + name + "\nMessage: " + message;
+
+    window.location.href = "mailto:" + email +
+        "?subject=" + encodeURIComponent(subject) +
+        "&body=" + encodeURIComponent(body);
+}
