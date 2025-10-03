@@ -195,7 +195,9 @@ body {
 
 *:focus {
   outline: none;
-  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+  box-shadow: 0 3px 0 0 #007bff;
+  padding-bottom: 5px;
+  transition: box-shadow 0.3s ease;
 }
 
 /* HELPER/SETTINGS CLASSES */
