@@ -78,7 +78,7 @@ checkFlexGap();
 
 function openWhatsapp() {
     let phone = "918979821765";
-    let message = "Hello Priyansh, I saw your portfolio!";
+    let message = "Hi Priyansh, I visited your portfolio and want to discuss a frontend development project.";
     let url = "https://wa.me/" + phone + "?text=" + encodeURIComponent(message);
     window.open(url, "_blank");
 }

@@ -1,12 +1,15 @@
 /**************************/
 /* HEADER */
 /**************************/
+body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #e4e7ec 100%) !important;
+}
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fdf2e9;
+  /* background-color: #fdf2e9; */
 
   /* Because we want header to be sticky later */
   height: 9.6rem;
@@ -134,7 +137,7 @@
 /**************************/
 
 .section-hero {
-  background-color: #fdf2e9;
+  /* background-color: #fdf2e9; */
   padding: 4.8rem 0 9.6rem 0;
 }
 
@@ -298,7 +301,7 @@
 /**************************/
 
 .section-experience {
-  background: linear-gradient(135deg, #d2d4e4, #cacccd);
+  /* background: linear-gradient(135deg, #d2d4e4, #cacccd); */
   padding: 9.6rem 0 4rem 0;
 }
 
@@ -357,7 +360,7 @@ header.experience-header h4 {
 /**************************/
 
 .section-project {
-  background: linear-gradient(270deg, #d7dcf7, #caccce);
+  /* background: linear-gradient(270deg, #d7dcf7, #caccce); */
   padding: 9.6rem 0 4rem 0;
 }
 
@@ -410,7 +413,7 @@ header.experience-header h4 {
 
 .section-cta {
   padding: 6rem 0 12rem;
-  background: linear-gradient(135deg, #eef2ff, #c7d2fe);
+  /* background: linear-gradient(135deg, #eef2ff, #c7d2fe); */
 }
 
 .cta {
@@ -533,7 +536,7 @@ header.experience-header h4 {
 
 .footer {
   padding: 6rem 0;
-  background: linear-gradient(135deg, #e0e7ff, #fef3c7);
+  /* background: linear-gradient(135deg, #e0e7ff, #fef3c7); */
   border-top: 1px solid #ddd;
   color: #1f2937;
 }
